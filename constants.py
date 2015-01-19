@@ -1,0 +1,3 @@
+
+RESPONSE = 'response'
+MSG = 'msg'
