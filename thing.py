@@ -9,6 +9,7 @@ from thingTask import ThingTask
 from feedTask import FeedTask
 from statusTask import StatusTask
 
+
 class Thing:
     #
     # Constructor method for Thing that accepts a web service instance, name,
@@ -34,11 +35,17 @@ class Thing:
             self.id = response['thing_id']
             self.code = response['code']
 
+    #
+    #
+    #
     def feed(self, category, message, feedOptions=None):
         feedTask = FeedTask(self._web, self, category, message, feedOptions)
         response = feedTask.perform()
         return response
 
+    #
+    #
+    #
     def status(self, *args):
         statusTask = StatusTask(self._web, self, *args)
         response = statusTask.perform()
