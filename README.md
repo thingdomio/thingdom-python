@@ -17,7 +17,7 @@ The official Python wrapper for the [Thingdom API](https://thingdom.io/).
 
 ## Installation
 ```
-gem install thingdom
+
 ```
 
 ## Getting Started
@@ -40,6 +40,6 @@ thing.status( 'KEY', 'VALUE' )
 
 ## Ideas for Module Usage
 
-1. Programmatically trigger push notifications, feed messages, and real-time status updates from your Ruby app.
-2. Remotely monitor any interaction with your Ruby application.
-3. With our quick drop-in integration and simple API calls you can mobile-enable your Ruby application in a matter of hours, even customizing the mobile experience for your end-users.
+1. Programmatically trigger push notifications, feed messages, and real-time status updates from your Python app.
+2. Remotely monitor any interaction with your Python application.
+3. With our quick drop-in integration and simple API calls you can mobile-enable your Python application in a matter of hours, even customizing the mobile experience for your end-users.
