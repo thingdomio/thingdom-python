@@ -1,7 +1,7 @@
 #
 # A class that provides the web services needed by the Python wrapper.
 #
-import httpHelper
+from httpHelper import HttpHelper
 
 
 class WebService:
@@ -10,7 +10,7 @@ class WebService:
     # other local variables.
     #
     def __init__(self, secret):
-        self._httpHelper = httpHelper.HttpHelper()
+        self._httpHelper = HttpHelper()
         self._secret = secret
         self._applicationToken = ''
         self._deviceSecret = 'none'

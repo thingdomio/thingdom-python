@@ -1,13 +1,12 @@
 #
 # A class that represents a Thing.
 #
-import constants
 import sys
-sys.path.append('./tasks')
+import constants
 
-from thingTask import ThingTask
-from feedTask import FeedTask
-from statusTask import StatusTask
+from tasks.thingTask import ThingTask
+from tasks.feedTask import FeedTask
+from tasks.statusTask import StatusTask
 
 
 class Thing:

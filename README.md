@@ -17,12 +17,12 @@ The official Python wrapper for the [Thingdom API](https://thingdom.io/).
 
 ## Installation
 ```
-
+pip install thingdom
 ```
 
 ## Getting Started
 ```
-require 'thingdom'
+from thingdom import Thingdom
 
 # instantiate Thingdom object and authenticate
 thingdom = Thingdom( 'YOUR_API_SECRET' )
