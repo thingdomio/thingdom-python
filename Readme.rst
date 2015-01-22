@@ -10,6 +10,8 @@ What is Thingdom?
 Installation
 ============
 
+::
+
     pip install thingdom
 
 
@@ -24,18 +26,18 @@ Ideas for Module Usage
 Getting Started
 ===============
 
-    ::
+::
 
-        from thingdom import Thingdom
+    from thingdom import Thingdom
 
-        # instantiate Thingdom object and authenticate
-        thingdom = Thingdom( 'YOUR_API_SECRET' )
+    # instantiate Thingdom object and authenticate
+    thingdom = Thingdom( 'YOUR_API_SECRET' )
 
-        # look-up Thing and get back object
-        thing = thingdom.get_thing( 'YOUR_THING_NAME' )
+    # look-up Thing and get back object
+    thing = thingdom.get_thing( 'YOUR_THING_NAME' )
 
-        # send a feed message
-        thing.feed( 'FEED_CATEGORY', 'MESSAGE' )
+    # send a feed message
+    thing.feed( 'FEED_CATEGORY', 'MESSAGE' )
 
-        # send a status update
-        thing.status( 'KEY', 'VALUE' )
+    # send a status update
+    thing.status( 'KEY', 'VALUE' )
