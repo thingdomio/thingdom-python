@@ -28,7 +28,7 @@ from thingdom import Thingdom
 thingdom = Thingdom( 'YOUR_API_SECRET' )
 
 # look-up Thing and get back object
-thing = thingdom.get_thing( 'YOUR_THING_NAME' )
+thing = thingdom.get_thing( 'YOUR_THING_NAME', 'PRODUCT_TYPE' )
 
 # send a feed message
 thing.feed( 'FEED_CATEGORY', 'MESSAGE' )
